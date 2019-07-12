@@ -1,5 +1,5 @@
 [package]
-name = "node-template"
+name = "substrate-tetris"
 version = "2.0.0"
 authors = ["Anonymous"]
 build = "build.rs"
@@ -26,7 +26,7 @@ network = { package = "substrate-network", git = "https://github.com/paritytech/
 consensus = { package = "substrate-consensus-aura", git = "https://github.com/paritytech/substrate" }
 substrate-client = {  git = "https://github.com/paritytech/substrate" }
 basic-authorship = { package = "substrate-basic-authorship", git = "https://github.com/paritytech/substrate" }
-node-template-runtime = { git = "https://github.com/paritytech/substrate" }
+substrate-tetris-runtime = { path = "./runtime" }
 
 [build-dependencies]
 vergen = "3"

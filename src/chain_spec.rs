@@ -1,5 +1,5 @@
 use primitives::{ed25519, sr25519, Pair};
-use node_template_runtime::{
+use substrate_tetris_runtime::{
 	AccountId, GenesisConfig, AuraConfig, BalancesConfig,
 	SudoConfig, IndicesConfig, SystemConfig, WASM_BINARY, AuraId
 };
